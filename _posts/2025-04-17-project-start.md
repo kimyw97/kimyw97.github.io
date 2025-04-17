@@ -104,3 +104,10 @@ void motorShutdown() {
 
 ## 🪞 짧은 회고
 응용에 대해서만 이해하고 넘어가지 말고 정확한 정의와 개념을 암기하고 넘어가자
+
+## 📼 구현 영상
+
+https://github.com/user-attachments/assets/5467f75b-99ea-4690-bd86-aac582577668
+
+
+
