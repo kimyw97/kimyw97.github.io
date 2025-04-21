@@ -85,3 +85,6 @@ void vNavigationTask(void *argument) {
 ---
 
 ## 📼 구현 영상
+
+https://github.com/user-attachments/assets/2c6e25be-98ae-41d9-8a39-d92cef771bed
+
