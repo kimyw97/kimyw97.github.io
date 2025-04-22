@@ -2,7 +2,7 @@
 layout: post
 title: "2025.04.22 - STM32 + FreeRTOS UART 통신 구조 및 디버깅"
 date: 2025-04-22 18:00:00 +0900
-categories: embedded freertos stm32 uart
+categories: kongji-patji devlog
 ---
 
 ## 📌 오늘 한 일 요약
