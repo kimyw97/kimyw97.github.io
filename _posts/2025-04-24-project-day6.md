@@ -61,10 +61,12 @@ categories: kongi-patji project
 2. **GND 공통 필수**
    - STM32, 외부 전원, CNC Shield 간 GND 반드시 연결
 
-
+--- 
 ## stm32대신 아두이노 사용
 - stm32에서 나오는 전압은 4.65v
 - A4988 로직을 돌리기에는 부족한것으로 보임 => 락은 걸리지만 제어가 안되고 a핀(혹은 b)에서만 전압이 측정됨
 - stm32에서 아두이노와 시리얼 통신으로 raspberrypi -> stm32 -> arduino
-- 
+---
+## ✅ 다음 목표
+- feetech사의 sts3032 servo motor를 stm32와 urt-1보드를 이용한 제어
 ---
