@@ -85,11 +85,6 @@ categories: stm32 motor-control ros2 raspberrypi automation
 - STEP 핀에 최소 1μs 이상의 펄스를 인가 → 1스텝 이동
 - 마이크로스텝은 MS1~MS3 핀 설정으로 조정
 - ENABLE 핀은 LOW일 때 동작
-
-## stm32대신 아두이노 사용
-- stm32에서 나오는 전압은 4.65v
-- A4988 로직을 돌리기에는 부족한것으로 보임 => 락은 걸리지만 제어가 안되고 a핀(혹은 b)에서만 전압이 측정됨
-- stm32에서 아두이노와 시리얼 통신으로 raspberrypi -> stm32 -> arduino
 ---
 
 ## 💻 Raspberry Pi ROS2 자동 설치 스크립트
@@ -191,5 +186,5 @@ chmod +x setup-kongji-patji.sh
 ---
 
 ## ✅ 다음 목표
-
-- feetech sts3032 servo motor를 stm32와 urt-1 보드로 제어
+- STM32 타이머를 활용한 STEP 펄스 생성 코드 작성
+- 마이크로스텝 설정 실험 (FULL, HALF, 1/4 등)
